@@ -1,15 +1,14 @@
 # 자동차 경주 게임
 
 ## 기능 목록
-- [ ] 자동차 이름 입력 기능
-- [ ] 시도 횟수 입력 기능
-- [ ] 랜덤 숫자 생성 기능
-- [ ] 전진 기능
-- [ ] 결과 출력 기능
-- [ ] 최종 우승자 출력 기능
+- [ ] 자동차 이름 입력 기능 -InputView#readCarName()
+- [ ] 시도 횟수 입력 기능 -InputView#readGameCount()
+- [ ] 랜덤 숫자 생성 기능 -RandomNumber#randomNumber()
+- [ ] 전진 기능 -Car#move()
+- [ ] 결과 출력 기능 -OutputView#printResult()
 - [ ] 예외 처리 기능
-    - [ ] 이름 입력 예외 처리 기능
-    - [ ] 시도 횟수 입력 예외 처리 기능
+    - [ ] 이름 입력 예외 처리 기능 -UserException#carNameException()
+    - [ ] 시도 횟수 입력 예외 처리 기능 -UserException#gameCountException()
 
 ## 기능 요구사항
 초간단 자동차 경주 게임을 구현한다.
