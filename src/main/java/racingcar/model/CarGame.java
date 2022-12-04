@@ -13,6 +13,10 @@ public class CarGame {
         }
     }
 
+    public List<Car> getCars() {
+        return cars;
+    }
+
     public void carGame(int gameCount) {
 
     }
