@@ -10,7 +10,7 @@
 - [ ] 결과 출력 기능 -OutputView#printResult()
 - [ ] 예외 처리 기능
     - [x] 이름 입력 예외 처리 기능 -UserException#carNameException()
-    - [ ] 시도 횟수 입력 예외 처리 기능 -UserException#gameCountException()
+    - [x] 시도 횟수 입력 예외 처리 기능 -UserException#gameCountException()
 
 ## 기능 요구사항
 초간단 자동차 경주 게임을 구현한다.

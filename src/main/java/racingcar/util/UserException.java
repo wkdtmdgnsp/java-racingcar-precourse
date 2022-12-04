@@ -12,7 +12,13 @@ public class UserException {
         }
     }
 
-    public void gameCountException() {
-
+    public int gameCountException(String count) {
+        try {
+            int gameCount = Integer.parseInt(count);
+            return gameCount;
+        } catch (NumberFormatException e) {
+            System.out.println("[ERROR] 시도 횟수는 숫자여야 한다.");
+            throw new IllegalArgumentException();
+        }
     }
 }
