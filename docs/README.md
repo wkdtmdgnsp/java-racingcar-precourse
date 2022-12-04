@@ -9,7 +9,7 @@
 - [ ] 전진 기능 -Car#move()
 - [ ] 결과 출력 기능 -OutputView#printResult()
 - [ ] 예외 처리 기능
-    - [ ] 이름 입력 예외 처리 기능 -UserException#carNameException()
+    - [x] 이름 입력 예외 처리 기능 -UserException#carNameException()
     - [ ] 시도 횟수 입력 예외 처리 기능 -UserException#gameCountException()
 
 ## 기능 요구사항
