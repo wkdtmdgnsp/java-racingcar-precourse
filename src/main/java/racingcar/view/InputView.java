@@ -24,6 +24,12 @@ public class InputView {
     }
 
     public int readGameCount() {
-        return 0;
+        try {
+            String count = Console.readLine();
+            int gameCount = userException.gameCountException(count);
+            return gameCount;
+        } catch (IllegalArgumentException e) {
+            throw new IllegalArgumentException();
+        }
     }
 }

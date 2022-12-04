@@ -8,9 +8,11 @@ import java.util.List;
 public class RacingcarController {
     private InputView inputView = new InputView();
     private CarGame carGame = new CarGame();
+    private int gameCount = 0;
 
     public void run() {
         inputCarName();
+        inputGameCount();
     }
 
     public void inputCarName() {
@@ -24,7 +26,11 @@ public class RacingcarController {
     }
 
     public void inputGameCount() {
-        System.out.println("시도할 회수는 몇회인가요?");
-        inputView.readGameCount();
+        try {
+            System.out.println("시도할 회수는 몇회인가요?");
+            gameCount = inputView.readGameCount();
+        } catch (IllegalArgumentException e) {
+            inputGameCount();
+        }
     }
 }
