@@ -1,7 +1,7 @@
 # 자동차 경주 게임
 
 ## 기능 목록
-- [ ] 자동차 이름 입력 기능 -InputView#readCarName()
+- [x] 자동차 이름 입력 기능 -InputView#readCarName()
 - [ ] 자동차 이름 저장 기능 -CarGame#cars()
 - [ ] 시도 횟수 입력 기능 -InputView#readGameCount()
 - [ ] 랜덤 숫자 생성 기능 -RandomNumber#randomNumber()
