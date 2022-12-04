@@ -1,10 +1,16 @@
 package racingcar.model;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class CarGame {
-    public List<Car> cars(String carName) {
-        return null;
+    private List<Car> cars = new ArrayList<>();
+
+    public void cars(List<String> carNames) {
+        for (int i=0; i<carNames.size(); i++) {
+            Car car = new Car(carNames.get(i));
+            cars.add(car);
+        }
     }
 
     public void carGame(int gameCount) {
