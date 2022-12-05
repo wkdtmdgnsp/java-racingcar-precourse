@@ -13,6 +13,7 @@ public class RacingcarController {
     public void run() {
         inputCarName();
         inputGameCount();
+        carGame.carGame(gameCount);
     }
 
     public void inputCarName() {

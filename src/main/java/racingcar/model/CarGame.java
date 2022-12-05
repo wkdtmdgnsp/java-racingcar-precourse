@@ -1,5 +1,8 @@
 package racingcar.model;
 
+import racingcar.util.RandomNumber;
+import racingcar.view.OutputView;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -18,6 +21,19 @@ public class CarGame {
     }
 
     public void carGame(int gameCount) {
+        OutputView outputView = new OutputView();
+        System.out.println("실행 결과");
+        for (int i=0; i<gameCount; i++) {
+            racing();
+            outputView.printGame(this);
+        }
+    }
 
+    private void racing() {
+        RandomNumber randomNumber = new RandomNumber();
+        for (int i=0; i<cars.size(); i++) {
+            int number = randomNumber.randomNumber();
+            cars.get(i).move(number);
+        }
     }
 }
