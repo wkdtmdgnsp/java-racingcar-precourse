@@ -9,6 +9,12 @@ public class Car {
     }
 
     public void move(int number) {
+        if (number > 3) {
+            position++;
+        }
+    }
 
+    public int getPosition() {
+        return position;
     }
 }
