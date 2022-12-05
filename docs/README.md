@@ -8,7 +8,7 @@
 - [x] 경주 게임 기능 -CarGame#carGame()
 - [x] 전진 기능 -Car#move()
 - [x] 실행 결과 출력 기능 -OutputView#printGame()
-- [ ] 결과 출력 기능 -OutputView#printResult()
+- [x] 결과 출력 기능 -OutputView#printResult()
 - [x] 예외 처리 기능
     - [x] 이름 입력 예외 처리 기능 -UserException#carNameException()
     - [x] 시도 횟수 입력 예외 처리 기능 -UserException#gameCountException()

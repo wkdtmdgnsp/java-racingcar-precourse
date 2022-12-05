@@ -2,6 +2,7 @@ package racingcar.controller;
 
 import racingcar.model.CarGame;
 import racingcar.view.InputView;
+import racingcar.view.OutputView;
 
 import java.util.List;
 
@@ -14,6 +15,8 @@ public class RacingcarController {
         inputCarName();
         inputGameCount();
         carGame.carGame(gameCount);
+        OutputView outputView = new OutputView();
+        outputView.printResult(carGame.bestCar());
     }
 
     public void inputCarName() {

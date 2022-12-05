@@ -18,7 +18,8 @@ public class OutputView {
         System.out.println();
     }
 
-    public void printResult() {
-
+    public void printResult(List<String> bestCar) {
+        String best = String.join(",", bestCar);
+        System.out.print("최종 우승자 : " +best);
     }
 }
