@@ -4,7 +4,7 @@
 - [x] 자동차 이름 입력 기능 -InputView#readCarName()
 - [x] 자동차 이름 저장 기능 -CarGame#cars()
 - [x] 시도 횟수 입력 기능 -InputView#readGameCount()
-- [ ] 랜덤 숫자 생성 기능 -RandomNumber#randomNumber()
+- [x] 랜덤 숫자 생성 기능 -RandomNumber#randomNumber()
 - [ ] 경주 게임 기능 -CarGame#carGame()
 - [ ] 전진 기능 -Car#move()
 - [ ] 결과 출력 기능 -OutputView#printResult()
